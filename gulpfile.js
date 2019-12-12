@@ -3,7 +3,7 @@ const { task, src, dest, watch, series } = require('gulp');
 const obfuscateJS = require('gulp-javascript-obfuscator');
 const minifyCSS = require('gulp-clean-css');
 const rename = require("gulp-rename");
-var concat = require('gulp-concat');
+const concat = require('gulp-concat');
 
 // Main file - Single JS and CSS Source
 const js_src = 'assets/js/app.js';
