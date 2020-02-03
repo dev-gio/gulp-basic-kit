@@ -1,6 +1,10 @@
 # gulp-basic-kit
  Simple use of Gulp in my projects at work
 
+Requirements:   
+- Node JS must be installed.   
+- Install globally Gulp CLI using `npm i gulp-cli -g`   
+
 Dev Dependencies used 
 ```
 $ npm i gulp --save-dev
@@ -9,10 +13,6 @@ $ npm i gulp-javascript-obfuscator --save-dev
 $ npm i gulp-rename --save-dev
 $ npm i gulp-concat --save-dev
 ```
-
-Requirements:   
-- Node JS must be installed.   
-- Install globally Gulp CLI using `npm install --global gulp-cli`   
 
 To use (example) - on your terminal:
 ```
